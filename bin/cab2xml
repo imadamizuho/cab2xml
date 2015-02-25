@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'cab2xml'
+converter = Cab2xml::Converter.new
+puts converter.parse(ARGF)
