@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["imadamizuho@gmail.com"]
 
   if spec.respond_to?(:metadata)
-    spec.metadata['allowed_push_host'] = ""
+    spec.metadata['allowed_push_host'] = "https://rubygems.org"
   end
 
   spec.summary       = %q{Cabocha to XML.}
